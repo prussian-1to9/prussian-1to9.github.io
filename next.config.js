@@ -2,5 +2,5 @@ const prefix = process.env.NODE_ENV === 'production' ? 'https://prussian-1to9.gi
 
 const nextConfig = {
     output: 'export',
-    assetPrefix: '',
+    assetPrefix: prefix,
 }
